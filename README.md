@@ -3,8 +3,7 @@ Culture Cow
 ===========
 
 The periodic culture sending portion of the former
-[Khan/culture-cow](/Khan/culture-cow).  Can also be activated with `/culture`
-in Slack.
+[Khan/culture-cow](/Khan/culture-cow).
 
 What it means to be Culture Cow
 --------------------
@@ -27,4 +26,8 @@ Just abide by the two rules of Culture Cow above.
 Where does Khan Academy's Culture Cow live?
 -------------------------------------------
 
-On a Google App Engine app called culture-cron.  Ping benkraft for access.
+It is run on the toby-internal-webserver GCE machine.
+
+The cronjob that runs it, along with the code that sets up the secret it
+needs, lives in Khan/aws-config:toby/.
+
